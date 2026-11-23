@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investigation Board Mockup</title>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&family=Inter:wght@400;600&family=VT323&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="scene"></div>
+<div class="vignette"></div>
+<div class="hud">
+  <h1>Project Title</h1>
+  <p>Drag to tilt · right-drag to pan · scroll to zoom where you point · click a photo or a string</p>
+</div>
+<div class="badge">Mockup</div>
+<div id="loading">Pinning up the evidence…</div>
+
+<div id="win" class="win" role="dialog" aria-hidden="true">
+  <div class="titlebar" id="titlebar">
+    <span class="tb-title" id="win-title">CASE_FILE</span>
+    <div class="tb-btns">
+      <button class="tb-btn bevel" id="btn-min" title="Minimize" aria-label="Minimize"><span class="i-min"></span></button>
+      <button class="tb-btn bevel" id="btn-max" title="Maximize" aria-label="Maximize"><span class="i-max"></span></button>
+    </div>
+  </div>
+  <div class="win-body" id="win-body"></div>
+  <div class="statusbar"><span id="status-l"></span><span id="status-r"></span></div>
+</div>
+<button id="dock" class="dock bevel" hidden></button>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

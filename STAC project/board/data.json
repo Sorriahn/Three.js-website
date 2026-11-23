@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "id": "treaty",
+      "title": "\"As long as the waters run\"",
+      "x": -5.5,
+      "y": 2.5,
+      "label": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "id": "kaw",
+      "title": "Kaw Lake & Washunga",
+      "x": -1.7,
+      "y": 2.8,
+      "label": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "id": "sardis",
+      "title": "Sardis Lake",
+      "x": 2.6,
+      "y": 2.6,
+      "label": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "id": "tarcreek",
+      "title": "Tar Creek",
+      "x": 5.7,
+      "y": 0.1,
+      "label": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "id": "fountains",
+      "title": "Separate Fountains",
+      "x": -5.3,
+      "y": -2,
+      "label": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "id": "corps",
+      "title": "Federal Dam Building",
+      "x": -1.1,
+      "y": -0.7,
+      "label": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "id": "dapl",
+      "title": "Water Protectors",
+      "x": 2.9,
+      "y": -2.4,
+      "label": "",
+      "text": "",
+      "sources": []
+    }
+  ],
+  "links": [
+    {
+      "from": "treaty",
+      "to": "kaw",
+      "title": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "from": "kaw",
+      "to": "corps",
+      "title": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "from": "corps",
+      "to": "sardis",
+      "title": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "from": "treaty",
+      "to": "sardis",
+      "title": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "from": "fountains",
+      "to": "treaty",
+      "title": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "from": "fountains",
+      "to": "tarcreek",
+      "title": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "from": "tarcreek",
+      "to": "dapl",
+      "title": "",
+      "text": "",
+      "sources": []
+    },
+    {
+      "from": "corps",
+      "to": "dapl",
+      "title": "",
+      "text": "",
+      "sources": []
+    }
+  ]
+}
