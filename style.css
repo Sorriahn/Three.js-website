@@ -1,4 +1,4 @@
-  html,body{margin:0;height:100%;overflow:hidden;background:#0d0b09;font-family:Inter,system-ui,sans-serif;color:#eee}
+html,body{margin:0;height:100%;overflow:hidden;background:#0d0b09;font-family:Inter,system-ui,sans-serif;color:#eee}
   #scene{position:fixed;inset:0}
   #scene canvas{display:block}
   .vignette{position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,rgba(0,0,0,0) 55%,rgba(0,0,0,.55) 100%)}
@@ -23,7 +23,7 @@
   .win.max .titlebar{cursor:default}
   .titlebar::before{content:"";position:absolute;left:8px;right:66px;top:8px;bottom:8px;
     background:repeating-linear-gradient(180deg,transparent 0 2px,rgba(46,31,16,.6) 2px 3px)}
-  .tb-title{position:relative;background:var(--amber);padding:0 12px;font:20px/1 VT323,monospace;letter-spacing:.06em;
+  .tb-title{position:relative;background:var(--amber);padding:0 12px;font:600 13px/1 'IBM Plex Mono',monospace;letter-spacing:.04em;
     white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:calc(100% - 150px)}
   .tb-btns{position:absolute;right:6px;top:4px;display:flex;gap:5px;background:var(--amber);padding-left:6px}
   .bevel{background:#f6e7bd;border:2px solid var(--ink);box-shadow:inset -2px -2px 0 var(--lo),inset 2px 2px 0 var(--hi);cursor:pointer}
@@ -39,21 +39,21 @@
     background-image:repeating-linear-gradient(180deg,transparent 0 27px,rgba(154,52,18,.08) 27px 28px)}
   .win-body .inner{max-width:760px;margin:0 auto}
   .statusbar{flex:none;display:flex;justify-content:space-between;gap:10px;height:24px;align-items:center;
-    padding:0 12px;margin:0 8px 6px;font:17px/1 VT323,monospace;letter-spacing:.05em}
+    padding:0 12px;margin:0 8px 6px;font:500 11.5px/1 'IBM Plex Mono',monospace;letter-spacing:.04em}
   .statusbar span:last-child{opacity:.75}
-  .kicker{font:19px/1 VT323,monospace;letter-spacing:.1em;color:var(--rust);text-transform:uppercase}
-  .win h2{font:38px/1 VT323,monospace;margin:6px 0 14px;font-weight:400}
-  .win.max h2{font-size:52px}
+  .kicker{font:600 12px/1 'IBM Plex Mono',monospace;letter-spacing:.1em;color:var(--rust);text-transform:uppercase}
+  .win h2{font:600 26px/1.15 'IBM Plex Mono',monospace;margin:8px 0 14px}
+  .win.max h2{font-size:34px}
   .thumb{float:right;width:44%;max-width:260px;margin:0 0 12px 16px;background:#f4efe4;padding:6px 6px 0;border:2px solid var(--ink);box-shadow:3px 3px 0 rgba(46,31,16,.6);transform:rotate(1.5deg)}
   .thumb img{width:100%;display:block}
   .linkpair{display:flex;align-items:center;gap:8px;margin:2px 0 16px;flex-wrap:wrap}
-  .linkpair span{font:24px VT323,monospace;color:var(--rust)}
+  .linkpair span{font:600 18px 'IBM Plex Mono',monospace;color:var(--rust)}
   .win p{font-size:14px;line-height:1.65;margin:0 0 12px}
-  .win h3{clear:both;font:21px/1 VT323,monospace;letter-spacing:.08em;text-transform:uppercase;margin:22px 0 10px;padding-top:12px;border-top:2px dashed #c4a466;font-weight:400}
+  .win h3{clear:both;font:600 13px/1 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;margin:22px 0 10px;padding-top:12px;border-top:2px dashed #c4a466}
   .chip{display:inline-block;font:600 12.5px 'IBM Plex Mono',monospace;color:var(--ink);padding:7px 10px;margin:0 8px 8px 0;text-align:left}
   .chip small{font-weight:400;opacity:.75}
   .note{clear:both;font-size:12px;background:rgba(227,167,60,.25);border:2px dashed var(--amber);padding:8px 10px;margin-top:6px}
   .sources{font-size:13px;margin:0;padding-left:20px}
-  .dock{position:fixed;left:20px;bottom:20px;z-index:9;font:19px/1 VT323,monospace;letter-spacing:.05em;color:var(--ink);
-    padding:7px 12px 6px;max-width:70vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:inset -2px -2px 0 var(--lo),inset 2px 2px 0 var(--hi),4px 4px 0 rgba(0,0,0,.5)}
+  .dock{position:fixed;left:20px;bottom:20px;z-index:9;font:600 13px/1 'IBM Plex Mono',monospace;letter-spacing:.04em;color:var(--ink);
+    padding:9px 12px;max-width:70vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:inset -2px -2px 0 var(--lo),inset 2px 2px 0 var(--hi),4px 4px 0 rgba(0,0,0,.5)}
   .dock[hidden]{display:none}
